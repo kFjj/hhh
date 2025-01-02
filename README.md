@@ -89,3 +89,7 @@
 - `getLongDescription()`：获取房间的详细描述，包括出口信息。
 - `getExit(String direction)`：获取指定方向的出口房间。
 # 类图
+
+
+![Class Diagram](/类图.jpeg)
+
