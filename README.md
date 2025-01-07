@@ -91,7 +91,7 @@
 # 类图
 
 
-![Class Diagram](/类图.jpeg)
+![Class Diagram](/类图.jpeg）
 ## 维护代码
 
 ### 1. 使用命令模式（Command Pattern）
@@ -100,14 +100,14 @@
 
 - **创建接口 `CommandExecutor`**：
   - 该接口定义了一个方法 `execute(Command command)`。
-![1](lyh软件工程实践/图片 1.png)
+![1](/lyh软件工程实践/图片 1.png)
 - **为每个具体的命令创建一个执行器类**：
   - 这些类实现了 `CommandExecutor` 接口，并提供了具体的执行逻辑。例如：
     - `GoCommandExecutor`
-    ![2](lyh软件工程实践/图片 2.png)
-    ![3](lyh软件工程实践/图片 3.png)
+    ![2](/lyh软件工程实践/图片 2.png)
+    ![3](/lyh软件工程实践/图片 3.png)
     - `HelpCommandExecutor`
-    ![](lyh软件工程实践/图片 4.png)
+    ![](/lyh软件工程实践/图片 4.png)
     - `QuitCommandExecutor`
       
 - **在 `Game` 类中使用映射**：
